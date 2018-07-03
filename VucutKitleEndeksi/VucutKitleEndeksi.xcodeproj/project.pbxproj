@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61084291A1A285A002870EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61084281A1A285A002870EA /* UIKit.framework */; };
+		E610842B1A1A285A002870EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E610842A1A1A285A002870EA /* Foundation.framework */; };
+		E610842D1A1A285A002870EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E610842C1A1A285A002870EA /* CoreGraphics.framework */; };
+		E61084331A1A285A002870EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E61084311A1A285A002870EA /* InfoPlist.strings */; };
+		E61084351A1A285A002870EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E61084341A1A285A002870EA /* main.m */; };
+		E61084391A1A285A002870EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E61084381A1A285A002870EA /* AppDelegate.m */; };
+		E610843B1A1A285A002870EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E610843A1A1A285A002870EA /* Default.png */; };
+		E610843D1A1A285A002870EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E610843C1A1A285A002870EA /* Default@2x.png */; };
+		E610843F1A1A285A002870EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E610843E1A1A285A002870EA /* Default-568h@2x.png */; };
+		E610844F1A1A2881002870EA /* AnaEkran-IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E610844B1A1A2881002870EA /* AnaEkran-IPad.storyboard */; };
+		E61084511A1A2881002870EA /* VucutKitleEndeksi.m in Sources */ = {isa = PBXBuildFile; fileRef = E610844E1A1A2881002870EA /* VucutKitleEndeksi.m */; };
+		E61DE0701A2A36E800B5FE2F /* AnaEkran-IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61DE0721A2A36E800B5FE2F /* AnaEkran-IPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E61084251A1A285A002870EA /* VucutKitleEndeksi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VucutKitleEndeksi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61084281A1A285A002870EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E610842A1A1A285A002870EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E610842C1A1A285A002870EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E61084301A1A285A002870EA /* VucutKitleEndeksi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VucutKitleEndeksi-Info.plist"; sourceTree = "<group>"; };
+		E61084321A1A285A002870EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E61084341A1A285A002870EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E61084361A1A285A002870EA /* VucutKitleEndeksi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VucutKitleEndeksi-Prefix.pch"; sourceTree = "<group>"; };
+		E61084371A1A285A002870EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E61084381A1A285A002870EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E610843A1A1A285A002870EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E610843C1A1A285A002870EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E610843E1A1A285A002870EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E610844B1A1A2881002870EA /* AnaEkran-IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "AnaEkran-IPad.storyboard"; sourceTree = "<group>"; };
+		E610844D1A1A2881002870EA /* VucutKitleEndeksi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VucutKitleEndeksi.h; sourceTree = "<group>"; };
+		E610844E1A1A2881002870EA /* VucutKitleEndeksi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VucutKitleEndeksi.m; sourceTree = "<group>"; };
+		E61DE0711A2A36E800B5FE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/AnaEkran-IPhone.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61084221A1A285A002870EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61084291A1A285A002870EA /* UIKit.framework in Frameworks */,
+				E610842B1A1A285A002870EA /* Foundation.framework in Frameworks */,
+				E610842D1A1A285A002870EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E610841C1A1A285A002870EA = {
+			isa = PBXGroup;
+			children = (
+				E610842E1A1A285A002870EA /* VucutKitleEndeksi */,
+				E61084271A1A285A002870EA /* Frameworks */,
+				E61084261A1A285A002870EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61084261A1A285A002870EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61084251A1A285A002870EA /* VucutKitleEndeksi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61084271A1A285A002870EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61084281A1A285A002870EA /* UIKit.framework */,
+				E610842A1A1A285A002870EA /* Foundation.framework */,
+				E610842C1A1A285A002870EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E610842E1A1A285A002870EA /* VucutKitleEndeksi */ = {
+			isa = PBXGroup;
+			children = (
+				E610844B1A1A2881002870EA /* AnaEkran-IPad.storyboard */,
+				E61DE0721A2A36E800B5FE2F /* AnaEkran-IPhone.storyboard */,
+				E610844D1A1A2881002870EA /* VucutKitleEndeksi.h */,
+				E610844E1A1A2881002870EA /* VucutKitleEndeksi.m */,
+				E61084371A1A285A002870EA /* AppDelegate.h */,
+				E61084381A1A285A002870EA /* AppDelegate.m */,
+				E610842F1A1A285A002870EA /* Supporting Files */,
+			);
+			path = VucutKitleEndeksi;
+			sourceTree = "<group>";
+		};
+		E610842F1A1A285A002870EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E61084301A1A285A002870EA /* VucutKitleEndeksi-Info.plist */,
+				E61084311A1A285A002870EA /* InfoPlist.strings */,
+				E61084341A1A285A002870EA /* main.m */,
+				E61084361A1A285A002870EA /* VucutKitleEndeksi-Prefix.pch */,
+				E610843A1A1A285A002870EA /* Default.png */,
+				E610843C1A1A285A002870EA /* Default@2x.png */,
+				E610843E1A1A285A002870EA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61084241A1A285A002870EA /* VucutKitleEndeksi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61084481A1A285A002870EA /* Build configuration list for PBXNativeTarget "VucutKitleEndeksi" */;
+			buildPhases = (
+				E61084211A1A285A002870EA /* Sources */,
+				E61084221A1A285A002870EA /* Frameworks */,
+				E61084231A1A285A002870EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VucutKitleEndeksi;
+			productName = VucutKitleEndeksi;
+			productReference = E61084251A1A285A002870EA /* VucutKitleEndeksi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E610841D1A1A285A002870EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+			};
+			buildConfigurationList = E61084201A1A285A002870EA /* Build configuration list for PBXProject "VucutKitleEndeksi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E610841C1A1A285A002870EA;
+			productRefGroup = E61084261A1A285A002870EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61084241A1A285A002870EA /* VucutKitleEndeksi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61084231A1A285A002870EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61084331A1A285A002870EA /* InfoPlist.strings in Resources */,
+				E610843B1A1A285A002870EA /* Default.png in Resources */,
+				E610843D1A1A285A002870EA /* Default@2x.png in Resources */,
+				E610843F1A1A285A002870EA /* Default-568h@2x.png in Resources */,
+				E610844F1A1A2881002870EA /* AnaEkran-IPad.storyboard in Resources */,
+				E61DE0701A2A36E800B5FE2F /* AnaEkran-IPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61084211A1A285A002870EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61084351A1A285A002870EA /* main.m in Sources */,
+				E61084391A1A285A002870EA /* AppDelegate.m in Sources */,
+				E61084511A1A2881002870EA /* VucutKitleEndeksi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E61084311A1A285A002870EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61084321A1A285A002870EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E61DE0721A2A36E800B5FE2F /* AnaEkran-IPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E61DE0711A2A36E800B5FE2F /* en */,
+			);
+			name = "AnaEkran-IPhone.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E61084461A1A285A002870EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E61084471A1A285A002870EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61084491A1A285A002870EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VucutKitleEndeksi/VucutKitleEndeksi-Prefix.pch";
+				INFOPLIST_FILE = "VucutKitleEndeksi/VucutKitleEndeksi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E610844A1A1A285A002870EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VucutKitleEndeksi/VucutKitleEndeksi-Prefix.pch";
+				INFOPLIST_FILE = "VucutKitleEndeksi/VucutKitleEndeksi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61084201A1A285A002870EA /* Build configuration list for PBXProject "VucutKitleEndeksi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61084461A1A285A002870EA /* Debug */,
+				E61084471A1A285A002870EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61084481A1A285A002870EA /* Build configuration list for PBXNativeTarget "VucutKitleEndeksi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61084491A1A285A002870EA /* Debug */,
+				E610844A1A1A285A002870EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E610841D1A1A285A002870EA /* Project object */;
+}

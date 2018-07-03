@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SLK-nt-qto"/>
+                        <viewControllerLayoutGuide type="bottom" id="3mF-RR-3Oi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Merhaba Dünya!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4R8-mh-gsc">
+                                <rect key="frame" x="92" y="9" width="137" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZKa-bH-0os"/>
+                                    <constraint firstAttribute="width" constant="137" id="dBt-vU-KJP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="s0C-Ab-5l0">
+                                <rect key="frame" x="40" y="38" width="238" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="4jm-iw-Jfm"/>
+                                    <constraint firstAttribute="width" constant="238" id="ci6-fs-Vel"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4R8-mh-gsc" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="4JM-vv-xou"/>
+                            <constraint firstItem="s0C-Ab-5l0" firstAttribute="top" secondItem="4R8-mh-gsc" secondAttribute="bottom" constant="8" symbolic="YES" id="DKg-KD-2af"/>
+                            <constraint firstItem="s0C-Ab-5l0" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="40" id="Xek-Af-P7i"/>
+                            <constraint firstItem="4R8-mh-gsc" firstAttribute="top" secondItem="3" secondAttribute="top" constant="9" id="bB5-jM-BJ1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple.png" width="3110" height="3760"/>
+    </resources>
+</document>

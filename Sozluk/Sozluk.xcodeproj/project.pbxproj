@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6A32C421A0DFC86004D9532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A32C411A0DFC86004D9532 /* UIKit.framework */; };
+		E6A32C441A0DFC86004D9532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A32C431A0DFC86004D9532 /* Foundation.framework */; };
+		E6A32C461A0DFC86004D9532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A32C451A0DFC86004D9532 /* CoreGraphics.framework */; };
+		E6A32C4C1A0DFC86004D9532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C4A1A0DFC86004D9532 /* InfoPlist.strings */; };
+		E6A32C4E1A0DFC86004D9532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A32C4D1A0DFC86004D9532 /* main.m */; };
+		E6A32C521A0DFC86004D9532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A32C511A0DFC86004D9532 /* AppDelegate.m */; };
+		E6A32C541A0DFC86004D9532 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C531A0DFC86004D9532 /* Default.png */; };
+		E6A32C561A0DFC86004D9532 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C551A0DFC86004D9532 /* Default@2x.png */; };
+		E6A32C581A0DFC86004D9532 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C571A0DFC86004D9532 /* Default-568h@2x.png */; };
+		E6A32C5F1A0DFCBC004D9532 /* AnaEkran-IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C5E1A0DFCBC004D9532 /* AnaEkran-IPhone.storyboard */; };
+		E6A32C611A0DFD04004D9532 /* AnaEkran-IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A32C601A0DFD04004D9532 /* AnaEkran-IPad.storyboard */; };
+		E6A32C641A0E006E004D9532 /* SozlukEkran.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A32C631A0E006E004D9532 /* SozlukEkran.m */; };
+		E6A32C671A0E0106004D9532 /* CeviriEkran.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A32C661A0E0106004D9532 /* CeviriEkran.m */; };
+		E6CFEC211A0F5842000FB562 /* turkish-dictionary.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6CFEC201A0F5842000FB562 /* turkish-dictionary.xml */; };
+		E6EC4E6D1A0E5FA3002871FC /* Kelime.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC4E6C1A0E5FA2002871FC /* Kelime.m */; };
+		E6EC4E701A0E6065002871FC /* Anlam.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC4E6F1A0E6065002871FC /* Anlam.m */; };
+		E6F38F2B1A0E6D77002E4239 /* SozlukKelime.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F38F2A1A0E6D77002E4239 /* SozlukKelime.m */; };
+		E6F38F2E1A0E7036002E4239 /* KaynakKelime.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F38F2D1A0E7036002E4239 /* KaynakKelime.m */; };
+		E6F38F311A0E717C002E4239 /* Ceviri.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F38F301A0E717C002E4239 /* Ceviri.m */; };
+		E6F38F341A0E7658002E4239 /* Sozluk.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F38F331A0E7658002E4239 /* Sozluk.m */; };
+		E6F38F371A0E76FF002E4239 /* CeviriSozluk.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F38F361A0E76FF002E4239 /* CeviriSozluk.m */; };
+		E6F38F3A1A0E7B17002E4239 /* english-turkish.xml in Resources */ = {isa = PBXBuildFile; fileRef = E6F38F381A0E7B17002E4239 /* english-turkish.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6A32C3E1A0DFC86004D9532 /* Sozluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sozluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A32C411A0DFC86004D9532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6A32C431A0DFC86004D9532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6A32C451A0DFC86004D9532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6A32C491A0DFC86004D9532 /* Sozluk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sozluk-Info.plist"; sourceTree = "<group>"; };
+		E6A32C4B1A0DFC86004D9532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6A32C4D1A0DFC86004D9532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6A32C4F1A0DFC86004D9532 /* Sozluk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sozluk-Prefix.pch"; sourceTree = "<group>"; };
+		E6A32C501A0DFC86004D9532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6A32C511A0DFC86004D9532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6A32C531A0DFC86004D9532 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6A32C551A0DFC86004D9532 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6A32C571A0DFC86004D9532 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6A32C5E1A0DFCBC004D9532 /* AnaEkran-IPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "AnaEkran-IPhone.storyboard"; sourceTree = "<group>"; };
+		E6A32C601A0DFD04004D9532 /* AnaEkran-IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "AnaEkran-IPad.storyboard"; sourceTree = "<group>"; };
+		E6A32C621A0E006E004D9532 /* SozlukEkran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SozlukEkran.h; sourceTree = "<group>"; };
+		E6A32C631A0E006E004D9532 /* SozlukEkran.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SozlukEkran.m; sourceTree = "<group>"; };
+		E6A32C651A0E0106004D9532 /* CeviriEkran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeviriEkran.h; sourceTree = "<group>"; };
+		E6A32C661A0E0106004D9532 /* CeviriEkran.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeviriEkran.m; sourceTree = "<group>"; };
+		E6CFEC201A0F5842000FB562 /* turkish-dictionary.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "turkish-dictionary.xml"; sourceTree = "<group>"; };
+		E6EC4E6B1A0E5FA2002871FC /* Kelime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kelime.h; sourceTree = "<group>"; };
+		E6EC4E6C1A0E5FA2002871FC /* Kelime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kelime.m; sourceTree = "<group>"; };
+		E6EC4E6E1A0E6065002871FC /* Anlam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anlam.h; sourceTree = "<group>"; };
+		E6EC4E6F1A0E6065002871FC /* Anlam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anlam.m; sourceTree = "<group>"; };
+		E6F38F291A0E6D77002E4239 /* SozlukKelime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SozlukKelime.h; sourceTree = "<group>"; };
+		E6F38F2A1A0E6D77002E4239 /* SozlukKelime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SozlukKelime.m; sourceTree = "<group>"; };
+		E6F38F2C1A0E7036002E4239 /* KaynakKelime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaynakKelime.h; sourceTree = "<group>"; };
+		E6F38F2D1A0E7036002E4239 /* KaynakKelime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaynakKelime.m; sourceTree = "<group>"; };
+		E6F38F2F1A0E717C002E4239 /* Ceviri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ceviri.h; sourceTree = "<group>"; };
+		E6F38F301A0E717C002E4239 /* Ceviri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ceviri.m; sourceTree = "<group>"; };
+		E6F38F321A0E7658002E4239 /* Sozluk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sozluk.h; sourceTree = "<group>"; };
+		E6F38F331A0E7658002E4239 /* Sozluk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sozluk.m; sourceTree = "<group>"; };
+		E6F38F351A0E76FF002E4239 /* CeviriSozluk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeviriSozluk.h; sourceTree = "<group>"; };
+		E6F38F361A0E76FF002E4239 /* CeviriSozluk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeviriSozluk.m; sourceTree = "<group>"; };
+		E6F38F381A0E7B17002E4239 /* english-turkish.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "english-turkish.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6A32C3B1A0DFC86004D9532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A32C421A0DFC86004D9532 /* UIKit.framework in Frameworks */,
+				E6A32C441A0DFC86004D9532 /* Foundation.framework in Frameworks */,
+				E6A32C461A0DFC86004D9532 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6A32C351A0DFC86004D9532 = {
+			isa = PBXGroup;
+			children = (
+				E6A32C471A0DFC86004D9532 /* Sozluk */,
+				E6A32C401A0DFC86004D9532 /* Frameworks */,
+				E6A32C3F1A0DFC86004D9532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A32C3F1A0DFC86004D9532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A32C3E1A0DFC86004D9532 /* Sozluk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A32C401A0DFC86004D9532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A32C411A0DFC86004D9532 /* UIKit.framework */,
+				E6A32C431A0DFC86004D9532 /* Foundation.framework */,
+				E6A32C451A0DFC86004D9532 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A32C471A0DFC86004D9532 /* Sozluk */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFEC201A0F5842000FB562 /* turkish-dictionary.xml */,
+				E6F38F381A0E7B17002E4239 /* english-turkish.xml */,
+				E6A32C501A0DFC86004D9532 /* AppDelegate.h */,
+				E6A32C511A0DFC86004D9532 /* AppDelegate.m */,
+				E6A32C481A0DFC86004D9532 /* Supporting Files */,
+				E6A32C5E1A0DFCBC004D9532 /* AnaEkran-IPhone.storyboard */,
+				E6A32C601A0DFD04004D9532 /* AnaEkran-IPad.storyboard */,
+				E6A32C621A0E006E004D9532 /* SozlukEkran.h */,
+				E6A32C631A0E006E004D9532 /* SozlukEkran.m */,
+				E6A32C651A0E0106004D9532 /* CeviriEkran.h */,
+				E6A32C661A0E0106004D9532 /* CeviriEkran.m */,
+				E6EC4E6B1A0E5FA2002871FC /* Kelime.h */,
+				E6EC4E6C1A0E5FA2002871FC /* Kelime.m */,
+				E6EC4E6E1A0E6065002871FC /* Anlam.h */,
+				E6EC4E6F1A0E6065002871FC /* Anlam.m */,
+				E6F38F291A0E6D77002E4239 /* SozlukKelime.h */,
+				E6F38F2A1A0E6D77002E4239 /* SozlukKelime.m */,
+				E6F38F2C1A0E7036002E4239 /* KaynakKelime.h */,
+				E6F38F2D1A0E7036002E4239 /* KaynakKelime.m */,
+				E6F38F2F1A0E717C002E4239 /* Ceviri.h */,
+				E6F38F301A0E717C002E4239 /* Ceviri.m */,
+				E6F38F321A0E7658002E4239 /* Sozluk.h */,
+				E6F38F331A0E7658002E4239 /* Sozluk.m */,
+				E6F38F351A0E76FF002E4239 /* CeviriSozluk.h */,
+				E6F38F361A0E76FF002E4239 /* CeviriSozluk.m */,
+			);
+			path = Sozluk;
+			sourceTree = "<group>";
+		};
+		E6A32C481A0DFC86004D9532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A32C491A0DFC86004D9532 /* Sozluk-Info.plist */,
+				E6A32C4A1A0DFC86004D9532 /* InfoPlist.strings */,
+				E6A32C4D1A0DFC86004D9532 /* main.m */,
+				E6A32C4F1A0DFC86004D9532 /* Sozluk-Prefix.pch */,
+				E6A32C531A0DFC86004D9532 /* Default.png */,
+				E6A32C551A0DFC86004D9532 /* Default@2x.png */,
+				E6A32C571A0DFC86004D9532 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6A32C3D1A0DFC86004D9532 /* Sozluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A32C5B1A0DFC86004D9532 /* Build configuration list for PBXNativeTarget "Sozluk" */;
+			buildPhases = (
+				E6A32C3A1A0DFC86004D9532 /* Sources */,
+				E6A32C3B1A0DFC86004D9532 /* Frameworks */,
+				E6A32C3C1A0DFC86004D9532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sozluk;
+			productName = Sozluk;
+			productReference = E6A32C3E1A0DFC86004D9532 /* Sozluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6A32C361A0DFC86004D9532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+			};
+			buildConfigurationList = E6A32C391A0DFC86004D9532 /* Build configuration list for PBXProject "Sozluk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6A32C351A0DFC86004D9532;
+			productRefGroup = E6A32C3F1A0DFC86004D9532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A32C3D1A0DFC86004D9532 /* Sozluk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6A32C3C1A0DFC86004D9532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A32C4C1A0DFC86004D9532 /* InfoPlist.strings in Resources */,
+				E6A32C541A0DFC86004D9532 /* Default.png in Resources */,
+				E6A32C561A0DFC86004D9532 /* Default@2x.png in Resources */,
+				E6A32C581A0DFC86004D9532 /* Default-568h@2x.png in Resources */,
+				E6A32C5F1A0DFCBC004D9532 /* AnaEkran-IPhone.storyboard in Resources */,
+				E6A32C611A0DFD04004D9532 /* AnaEkran-IPad.storyboard in Resources */,
+				E6F38F3A1A0E7B17002E4239 /* english-turkish.xml in Resources */,
+				E6CFEC211A0F5842000FB562 /* turkish-dictionary.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6A32C3A1A0DFC86004D9532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A32C4E1A0DFC86004D9532 /* main.m in Sources */,
+				E6A32C521A0DFC86004D9532 /* AppDelegate.m in Sources */,
+				E6A32C641A0E006E004D9532 /* SozlukEkran.m in Sources */,
+				E6A32C671A0E0106004D9532 /* CeviriEkran.m in Sources */,
+				E6EC4E6D1A0E5FA3002871FC /* Kelime.m in Sources */,
+				E6EC4E701A0E6065002871FC /* Anlam.m in Sources */,
+				E6F38F2B1A0E6D77002E4239 /* SozlukKelime.m in Sources */,
+				E6F38F2E1A0E7036002E4239 /* KaynakKelime.m in Sources */,
+				E6F38F311A0E717C002E4239 /* Ceviri.m in Sources */,
+				E6F38F341A0E7658002E4239 /* Sozluk.m in Sources */,
+				E6F38F371A0E76FF002E4239 /* CeviriSozluk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6A32C4A1A0DFC86004D9532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A32C4B1A0DFC86004D9532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6A32C591A0DFC86004D9532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6A32C5A1A0DFC86004D9532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6A32C5C1A0DFC86004D9532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sozluk/Sozluk-Prefix.pch";
+				INFOPLIST_FILE = "Sozluk/Sozluk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6A32C5D1A0DFC86004D9532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sozluk/Sozluk-Prefix.pch";
+				INFOPLIST_FILE = "Sozluk/Sozluk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A32C391A0DFC86004D9532 /* Build configuration list for PBXProject "Sozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A32C591A0DFC86004D9532 /* Debug */,
+				E6A32C5A1A0DFC86004D9532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A32C5B1A0DFC86004D9532 /* Build configuration list for PBXNativeTarget "Sozluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A32C5C1A0DFC86004D9532 /* Debug */,
+				E6A32C5D1A0DFC86004D9532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A32C361A0DFC86004D9532 /* Project object */;
+}

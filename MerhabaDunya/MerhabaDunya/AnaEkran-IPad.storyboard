@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="H4l-Ec-AMU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Vg6-rf-mcJ">
+            <objects>
+                <viewController id="H4l-Ec-AMU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NAB-sq-rRY">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Merhaba Dünya!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQd-t9-khY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="fNv-Vx-HLA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="qag-3E-tDQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="332" id="CCL-tq-kax"/>
+                                    <constraint firstAttribute="width" constant="287" id="oQS-HP-6hg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qag-3E-tDQ" firstAttribute="top" secondItem="NAB-sq-rRY" secondAttribute="top" constant="198" id="5iR-RQ-Vt6"/>
+                            <constraint firstItem="aQd-t9-khY" firstAttribute="top" secondItem="NAB-sq-rRY" secondAttribute="top" constant="104" id="Cwe-GZ-vCN"/>
+                            <constraint firstItem="aQd-t9-khY" firstAttribute="centerX" secondItem="NAB-sq-rRY" secondAttribute="centerX" type="default" id="ww9-6N-8ev"/>
+                            <constraint firstItem="qag-3E-tDQ" firstAttribute="leading" secondItem="NAB-sq-rRY" secondAttribute="leading" constant="251" id="zd4-lj-t1C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2QK-Ev-45T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86" y="-265"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple.png" width="3110" height="3760"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Vucut Kitle Endeksi-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="VucutKitleEndeksi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0ZK-Dn-ajH"/>
+                        <viewControllerLayoutGuide type="bottom" id="0QZ-2r-tWm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Boy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Dx-o2-HRg">
+                                <rect key="frame" x="56" y="52" width="42" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="R2H-ok-Pua"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Kilo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5J-vN-HIT">
+                                <rect key="frame" x="56" y="113" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="VKE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1U-f0-gb0">
+                                <rect key="frame" x="56" y="181" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Na2-UX-EhH">
+                                <rect key="frame" x="137" y="48" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="96r-V8-esL"/>
+                                    <constraint firstAttribute="width" constant="97" id="R6Z-ae-WxN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="BoyDegerIzleyici:" destination="2" eventType="editingChanged" id="zOf-BW-AZ8"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-eE-0et">
+                                <rect key="frame" x="137" y="109" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="KiloDegerIzleyici:" destination="2" eventType="editingChanged" id="0ck-GU-BuA"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fah-3Q-m31">
+                                <rect key="frame" x="137" y="177" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd8-ri-3i9">
+                                <rect key="frame" x="56" y="238" width="178" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="rs2-m6-Fqu"/>
+                                    <constraint firstAttribute="width" constant="178" id="tgY-Go-chE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fah-3Q-m31" firstAttribute="top" secondItem="3" secondAttribute="top" constant="177" id="3nN-2N-YFM"/>
+                            <constraint firstItem="7eh-eE-0et" firstAttribute="leading" secondItem="Na2-UX-EhH" secondAttribute="leading" id="Ajr-dz-Vsu"/>
+                            <constraint firstItem="Fah-3Q-m31" firstAttribute="trailing" secondItem="7eh-eE-0et" secondAttribute="trailing" id="Bei-ZK-1QJ"/>
+                            <constraint firstItem="Na2-UX-EhH" firstAttribute="baseline" secondItem="3Dx-o2-HRg" secondAttribute="baseline" id="DxZ-Bk-SbT"/>
+                            <constraint firstItem="Xd8-ri-3i9" firstAttribute="top" secondItem="3" secondAttribute="top" constant="238" id="Es2-8P-NWb"/>
+                            <constraint firstItem="P5J-vN-HIT" firstAttribute="leading" secondItem="3Dx-o2-HRg" secondAttribute="leading" id="Fee-Z3-S2R"/>
+                            <constraint firstItem="A1U-f0-gb0" firstAttribute="leading" secondItem="P5J-vN-HIT" secondAttribute="leading" id="Gk1-2S-qSA"/>
+                            <constraint firstItem="3Dx-o2-HRg" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="56" id="Hz1-y2-RJv"/>
+                            <constraint firstItem="P5J-vN-HIT" firstAttribute="trailing" secondItem="3Dx-o2-HRg" secondAttribute="trailing" id="Ipa-J1-N0h"/>
+                            <constraint firstItem="7eh-eE-0et" firstAttribute="trailing" secondItem="Na2-UX-EhH" secondAttribute="trailing" id="MBB-ey-2B2"/>
+                            <constraint firstItem="Xd8-ri-3i9" firstAttribute="trailing" secondItem="Fah-3Q-m31" secondAttribute="trailing" id="OTj-3U-UaH"/>
+                            <constraint firstItem="P5J-vN-HIT" firstAttribute="top" secondItem="3" secondAttribute="top" constant="113" id="Ubo-J6-I54"/>
+                            <constraint firstItem="Xd8-ri-3i9" firstAttribute="leading" secondItem="A1U-f0-gb0" secondAttribute="leading" id="Ubq-HT-nfs"/>
+                            <constraint firstItem="7eh-eE-0et" firstAttribute="top" secondItem="3" secondAttribute="top" constant="109" id="YOO-ty-Txb"/>
+                            <constraint firstItem="Fah-3Q-m31" firstAttribute="leading" secondItem="7eh-eE-0et" secondAttribute="leading" id="kyL-2R-cuu"/>
+                            <constraint firstItem="3Dx-o2-HRg" firstAttribute="top" secondItem="3" secondAttribute="top" constant="52" id="lha-44-5h0"/>
+                            <constraint firstItem="A1U-f0-gb0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="181" id="ly0-MC-wog"/>
+                            <constraint firstItem="Na2-UX-EhH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="48" id="o1J-dY-kGu"/>
+                            <constraint firstItem="A1U-f0-gb0" firstAttribute="trailing" secondItem="P5J-vN-HIT" secondAttribute="trailing" id="u57-Pb-Sw5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Boy" destination="Na2-UX-EhH" id="uay-7o-FJW"/>
+                        <outlet property="Durum" destination="Xd8-ri-3i9" id="qGn-FQ-Nha"/>
+                        <outlet property="Kilo" destination="7eh-eE-0et" id="Q1g-va-Cm4"/>
+                        <outlet property="VucutKitleEndeks" destination="Fah-3Q-m31" id="JOw-bw-TKd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

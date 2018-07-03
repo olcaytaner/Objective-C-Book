@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="HAL-s7-YPN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Ehliyet Sinavi-->
+        <scene sceneID="eEG-C3-VUK">
+            <objects>
+                <viewController id="HAL-s7-YPN" customClass="EhliyetSinavi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="khv-Xg-oVD">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT3-PE-68e">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="dFh-kk-yka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TWr-Ml-57c">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="380" id="Wan-MY-CYh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap1">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="HAL-s7-YPN" eventType="touchUpInside" id="wl9-Fm-03a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xdl-mL-jGs">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap2">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="HAL-s7-YPN" eventType="touchUpInside" id="1j8-gS-Ygp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="X2n-by-GRu">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap3">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="HAL-s7-YPN" eventType="touchUpInside" id="6hV-u0-iUh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XQf-7z-OFI">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap4">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="HAL-s7-YPN" eventType="touchUpInside" id="Nxm-va-dB7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9f-ch-EbV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Konular">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vpg-IA-PJg" kind="modal" identifier="tercihSecimi" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="XPT-Qi-z7I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cs5-cq-SYo">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SinaviBaslatTikla:" destination="HAL-s7-YPN" eventType="touchUpInside" id="bpn-77-GLc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xdl-mL-jGs" firstAttribute="leading" secondItem="TWr-Ml-57c" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="405-r4-Ihg"/>
+                            <constraint firstItem="cT3-PE-68e" firstAttribute="trailing" secondItem="khv-Xg-oVD" secondAttribute="trailing" type="default" id="7jJ-FL-Quo"/>
+                            <constraint firstItem="cs5-cq-SYo" firstAttribute="trailing" secondItem="khv-Xg-oVD" secondAttribute="trailing" type="default" id="9ud-GZ-la5"/>
+                            <constraint firstItem="XQf-7z-OFI" firstAttribute="trailing" secondItem="khv-Xg-oVD" secondAttribute="trailing" type="default" id="DyE-jS-KYi"/>
+                            <constraint firstItem="XQf-7z-OFI" firstAttribute="leading" secondItem="xdl-mL-jGs" secondAttribute="leading" type="default" id="Ks4-Xg-gPn"/>
+                            <constraint firstItem="cT3-PE-68e" firstAttribute="leading" secondItem="khv-Xg-oVD" secondAttribute="leading" type="default" id="MX4-bn-jDQ"/>
+                            <constraint firstItem="cs5-cq-SYo" firstAttribute="leading" secondItem="XQf-7z-OFI" secondAttribute="leading" type="default" id="NvH-C9-v6P"/>
+                            <constraint firstItem="X2n-by-GRu" firstAttribute="top" secondItem="TWr-Ml-57c" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Qsz-fw-uXY"/>
+                            <constraint firstItem="N9f-ch-EbV" firstAttribute="top" secondItem="khv-Xg-oVD" secondAttribute="top" constant="227" id="VBd-EI-kt5"/>
+                            <constraint firstItem="xdl-mL-jGs" firstAttribute="top" secondItem="cT3-PE-68e" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="X5H-No-RcV"/>
+                            <constraint firstItem="N9f-ch-EbV" firstAttribute="leading" secondItem="khv-Xg-oVD" secondAttribute="leading" type="default" id="emU-Ii-LGN"/>
+                            <constraint firstItem="XQf-7z-OFI" firstAttribute="baseline" secondItem="X2n-by-GRu" secondAttribute="baseline" type="default" id="gks-yc-HfG"/>
+                            <constraint firstItem="TWr-Ml-57c" firstAttribute="top" secondItem="cT3-PE-68e" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="h4c-Yn-1L6"/>
+                            <constraint firstItem="xdl-mL-jGs" firstAttribute="trailing" secondItem="khv-Xg-oVD" secondAttribute="trailing" type="default" id="i2s-N0-bE4"/>
+                            <constraint firstItem="cT3-PE-68e" firstAttribute="top" secondItem="khv-Xg-oVD" secondAttribute="top" type="default" id="iIl-Z5-ZHG"/>
+                            <constraint firstItem="XQf-7z-OFI" firstAttribute="leading" secondItem="X2n-by-GRu" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="kCc-S8-ckk"/>
+                            <constraint firstItem="cs5-cq-SYo" firstAttribute="baseline" secondItem="N9f-ch-EbV" secondAttribute="baseline" type="default" id="qyb-KB-8Aw"/>
+                            <constraint firstItem="cs5-cq-SYo" firstAttribute="leading" secondItem="N9f-ch-EbV" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="tCn-0v-6iv"/>
+                            <constraint firstItem="TWr-Ml-57c" firstAttribute="leading" secondItem="khv-Xg-oVD" secondAttribute="leading" type="default" id="w8a-aD-sQ9"/>
+                            <constraint firstItem="X2n-by-GRu" firstAttribute="leading" secondItem="khv-Xg-oVD" secondAttribute="leading" type="default" id="xpe-zu-rDE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Cevap1" destination="TWr-Ml-57c" id="BHh-Nl-n0D"/>
+                        <outlet property="Cevap2" destination="xdl-mL-jGs" id="n8t-Xf-KiX"/>
+                        <outlet property="Cevap3" destination="X2n-by-GRu" id="oxM-Dj-8Fn"/>
+                        <outlet property="Cevap4" destination="XQf-7z-OFI" id="XDe-ui-auD"/>
+                        <outlet property="Soru" destination="cT3-PE-68e" id="2XA-SR-hHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mCE-3a-inj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-96" y="-301"/>
+        </scene>
+        <!--Konular-->
+        <scene sceneID="mZa-qI-TzN">
+            <objects>
+                <viewController id="vpg-IA-PJg" customClass="Konular" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2U1-7t-qbB">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trafik" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubB-yI-DTX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="lac-4P-zBU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqm-r9-1JF">
+                                <connections>
+                                    <action selector="KonuTikla:" destination="vpg-IA-PJg" eventType="valueChanged" id="f9W-8R-xkn"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Motor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0O-Bj-d8o">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mJf-sU-zXW">
+                                <connections>
+                                    <action selector="KonuTikla:" destination="vpg-IA-PJg" eventType="valueChanged" id="EvK-Tp-ak6"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="İlk Yardım" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Kx-eg-uc8">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IM4-ld-26A">
+                                <connections>
+                                    <action selector="KonuTikla:" destination="vpg-IA-PJg" eventType="valueChanged" id="Cyj-TW-BaH"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpr-DY-XkY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="f9g-Ff-ms9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rYU-s4-voa" kind="unwind" identifier="sinaviYenidenBaslat" unwindAction="unwindToEhliyetSinavi:" id="sEg-2V-9NZ"/>
+                                </connections>
+                            </button>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="t20-37-fmQ">
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="vpg-IA-PJg" eventType="valueChanged" id="uvw-al-JSZ"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIy-GA-8bo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="5qj-70-NgC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="6JS-Zv-hhK">
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="vpg-IA-PJg" eventType="valueChanged" id="iWB-ng-c6S"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxQ-9w-ikq">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iRU-Xc-DFt">
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="vpg-IA-PJg" eventType="valueChanged" id="CKW-2G-WCU"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33h-5x-hJD">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBd-Gu-t4r">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="283" id="Kjg-YM-y8c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınava Geri Dön">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rYU-s4-voa" kind="unwind" identifier="sinavaGeriDon" unwindAction="unwindToEhliyetSinavi:" id="XTM-Fo-hGY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iRU-Xc-DFt" firstAttribute="leading" secondItem="6JS-Zv-hhK" secondAttribute="leading" type="default" id="0p0-Bz-dCp"/>
+                            <constraint firstItem="3Kx-eg-uc8" firstAttribute="top" secondItem="2U1-7t-qbB" secondAttribute="top" constant="262" id="1YM-uP-khm"/>
+                            <constraint firstItem="ubB-yI-DTX" firstAttribute="centerY" secondItem="t20-37-fmQ" secondAttribute="centerY" type="default" id="6YL-rZ-Clb"/>
+                            <constraint firstItem="yxQ-9w-ikq" firstAttribute="trailing" secondItem="tIy-GA-8bo" secondAttribute="trailing" type="default" id="6y7-TV-dLF"/>
+                            <constraint firstItem="ubB-yI-DTX" firstAttribute="leading" secondItem="l0O-Bj-d8o" secondAttribute="leading" type="default" id="9mT-eP-VQP"/>
+                            <constraint firstItem="l0O-Bj-d8o" firstAttribute="top" secondItem="mJf-sU-zXW" secondAttribute="top" type="default" id="ANR-NY-HoL"/>
+                            <constraint firstItem="l0O-Bj-d8o" firstAttribute="trailing" secondItem="ubB-yI-DTX" secondAttribute="trailing" type="default" id="BBT-NM-oTz"/>
+                            <constraint firstItem="kpr-DY-XkY" firstAttribute="leading" secondItem="2U1-7t-qbB" secondAttribute="leading" constant="41" id="CWC-t2-Km1"/>
+                            <constraint firstItem="IM4-ld-26A" firstAttribute="top" secondItem="3Kx-eg-uc8" secondAttribute="top" type="default" id="D4l-V3-ilC"/>
+                            <constraint firstItem="3Kx-eg-uc8" firstAttribute="leading" secondItem="l0O-Bj-d8o" secondAttribute="leading" type="default" id="Gr3-bx-UlH"/>
+                            <constraint firstItem="kpr-DY-XkY" firstAttribute="top" secondItem="2U1-7t-qbB" secondAttribute="top" constant="358" id="IKe-lI-hlT"/>
+                            <constraint firstItem="6JS-Zv-hhK" firstAttribute="centerY" secondItem="yxQ-9w-ikq" secondAttribute="centerY" type="default" id="JQO-to-UQy"/>
+                            <constraint firstItem="6JS-Zv-hhK" firstAttribute="top" secondItem="mJf-sU-zXW" secondAttribute="top" type="default" id="Nsu-JX-Dz3"/>
+                            <constraint firstAttribute="trailing" secondItem="tIy-GA-8bo" secondAttribute="trailing" constant="197" id="Pbk-7f-N7O"/>
+                            <constraint firstItem="iRU-Xc-DFt" firstAttribute="centerY" secondItem="33h-5x-hJD" secondAttribute="centerY" type="default" id="Pj8-mD-IDj"/>
+                            <constraint firstItem="ZBd-Gu-t4r" firstAttribute="baseline" secondItem="kpr-DY-XkY" secondAttribute="baseline" type="default" id="SEy-tF-rYR"/>
+                            <constraint firstItem="aqm-r9-1JF" firstAttribute="leading" secondItem="2U1-7t-qbB" secondAttribute="leading" constant="297" id="TTb-fX-yRQ"/>
+                            <constraint firstItem="IM4-ld-26A" firstAttribute="leading" secondItem="mJf-sU-zXW" secondAttribute="leading" type="default" id="VRl-A7-49F"/>
+                            <constraint firstItem="33h-5x-hJD" firstAttribute="trailing" secondItem="yxQ-9w-ikq" secondAttribute="trailing" type="default" id="aT8-3q-yG2"/>
+                            <constraint firstItem="yxQ-9w-ikq" firstAttribute="leading" secondItem="tIy-GA-8bo" secondAttribute="leading" type="default" id="c0k-Xd-pki"/>
+                            <constraint firstItem="l0O-Bj-d8o" firstAttribute="top" secondItem="2U1-7t-qbB" secondAttribute="top" constant="192" id="fiE-Ar-mcf"/>
+                            <constraint firstItem="33h-5x-hJD" firstAttribute="leading" secondItem="yxQ-9w-ikq" secondAttribute="leading" type="default" id="gGx-me-l7g"/>
+                            <constraint firstItem="ubB-yI-DTX" firstAttribute="leading" secondItem="2U1-7t-qbB" secondAttribute="leading" constant="194" id="jYn-EH-knb"/>
+                            <constraint firstItem="l0O-Bj-d8o" firstAttribute="trailing" secondItem="3Kx-eg-uc8" secondAttribute="trailing" type="default" id="jc5-kO-zCs"/>
+                            <constraint firstItem="aqm-r9-1JF" firstAttribute="leading" secondItem="mJf-sU-zXW" secondAttribute="leading" type="default" id="k9C-9Q-hhf"/>
+                            <constraint firstAttribute="trailing" secondItem="t20-37-fmQ" secondAttribute="trailing" constant="246" id="lfJ-F1-Imq"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBd-Gu-t4r" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="mr3-bH-HYb"/>
+                            <constraint firstItem="tIy-GA-8bo" firstAttribute="top" secondItem="t20-37-fmQ" secondAttribute="top" type="default" id="raD-xw-BwI"/>
+                            <constraint firstItem="t20-37-fmQ" firstAttribute="top" secondItem="2U1-7t-qbB" secondAttribute="top" constant="116" id="sGB-6t-qQL"/>
+                            <constraint firstItem="ubB-yI-DTX" firstAttribute="top" secondItem="aqm-r9-1JF" secondAttribute="top" type="default" id="tBA-EA-8BR"/>
+                            <constraint firstItem="iRU-Xc-DFt" firstAttribute="top" secondItem="IM4-ld-26A" secondAttribute="top" type="default" id="zO1-1G-fvR"/>
+                            <constraint firstItem="t20-37-fmQ" firstAttribute="leading" secondItem="6JS-Zv-hhK" secondAttribute="leading" type="default" id="zpo-mk-Acg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="IlkYardim" destination="IM4-ld-26A" id="qC9-SI-TQe"/>
+                        <outlet property="IlkYardimGosterge" destination="iRU-Xc-DFt" id="Sdg-FZ-KI9"/>
+                        <outlet property="IlkYardimSayac" destination="33h-5x-hJD" id="Kng-pq-ieg"/>
+                        <outlet property="Motor" destination="mJf-sU-zXW" id="YdH-0n-7SC"/>
+                        <outlet property="MotorGosterge" destination="6JS-Zv-hhK" id="VrZ-Ma-gC8"/>
+                        <outlet property="MotorSayac" destination="yxQ-9w-ikq" id="tJn-NK-w0B"/>
+                        <outlet property="Trafik" destination="aqm-r9-1JF" id="gSo-fr-Qhk"/>
+                        <outlet property="TrafikGosterge" destination="t20-37-fmQ" id="b44-YO-wMt"/>
+                        <outlet property="TrafikSayac" destination="tIy-GA-8bo" id="nVV-ok-swp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOP-UQ-oy8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="rYU-s4-voa" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="-25"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="EhliyetSinavi" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EhliyetSinavi.h"/>
+            <relationships>
+                <relationship kind="action" name="CevapTikla:"/>
+                <relationship kind="action" name="SinaviBaslatTikla:"/>
+                <relationship kind="action" name="unwindToEhliyetSinavi:" candidateClass="UIStoryboardSegue"/>
+                <relationship kind="outlet" name="Cevap1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Cevap2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Cevap3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Cevap4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Soru" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="Konular" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Konular.h"/>
+            <relationships>
+                <relationship kind="action" name="KonuDegerDegistir:"/>
+                <relationship kind="action" name="KonuTikla:"/>
+                <relationship kind="outlet" name="IlkYardim" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="IlkYardimGosterge" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="IlkYardimSayac" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Motor" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="MotorGosterge" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="MotorSayac" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="Trafik" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="TrafikGosterge" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="TrafikSayac" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="UIStoryboardSegue" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIStoryboardSegue.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

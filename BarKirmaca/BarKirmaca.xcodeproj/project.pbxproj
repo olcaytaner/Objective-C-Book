@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E623670A1A017C4E00DD2EC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62367091A017C4E00DD2EC7 /* UIKit.framework */; };
+		E623670C1A017C4E00DD2EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E623670B1A017C4E00DD2EC7 /* Foundation.framework */; };
+		E623670E1A017C4E00DD2EC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E623670D1A017C4E00DD2EC7 /* CoreGraphics.framework */; };
+		E62367141A017C4E00DD2EC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E62367121A017C4E00DD2EC7 /* InfoPlist.strings */; };
+		E62367161A017C4E00DD2EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E62367151A017C4E00DD2EC7 /* main.m */; };
+		E623671A1A017C4E00DD2EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E62367191A017C4E00DD2EC7 /* AppDelegate.m */; };
+		E623671C1A017C4E00DD2EC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E623671B1A017C4E00DD2EC7 /* Default.png */; };
+		E623671E1A017C4E00DD2EC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E623671D1A017C4E00DD2EC7 /* Default@2x.png */; };
+		E62367201A017C4E00DD2EC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E623671F1A017C4E00DD2EC7 /* Default-568h@2x.png */; };
+		E62367231A017C4E00DD2EC7 /* AnaEkran-IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62367211A017C4E00DD2EC7 /* AnaEkran-IPhone.storyboard */; };
+		E62367261A017C4E00DD2EC7 /* TuglaKirmaca.m in Sources */ = {isa = PBXBuildFile; fileRef = E62367251A017C4E00DD2EC7 /* TuglaKirmaca.m */; };
+		E623672D1A017C6E00DD2EC7 /* AnaEkran-IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E623672C1A017C6E00DD2EC7 /* AnaEkran-IPad.storyboard */; };
+		E62367301A017D5900DD2EC7 /* Ekran.m in Sources */ = {isa = PBXBuildFile; fileRef = E623672F1A017D5900DD2EC7 /* Ekran.m */; };
+		E62367321A017F6C00DD2EC7 /* seviyeler.txt in Resources */ = {isa = PBXBuildFile; fileRef = E62367311A017F6C00DD2EC7 /* seviyeler.txt */; };
+		E62367351A017FC600DD2EC7 /* Tugla.m in Sources */ = {isa = PBXBuildFile; fileRef = E62367341A017FC600DD2EC7 /* Tugla.m */; };
+		E62367381A01810E00DD2EC7 /* Seviye.m in Sources */ = {isa = PBXBuildFile; fileRef = E62367371A01810E00DD2EC7 /* Seviye.m */; };
+		E623673B1A0183B200DD2EC7 /* Oyun.m in Sources */ = {isa = PBXBuildFile; fileRef = E623673A1A0183B200DD2EC7 /* Oyun.m */; };
+		E623673E1A018B7800DD2EC7 /* Parametre.m in Sources */ = {isa = PBXBuildFile; fileRef = E623673D1A018B7800DD2EC7 /* Parametre.m */; };
+		E64EAA2A1A023A3200FDF66D /* DusenTugla.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EAA291A023A3200FDF66D /* DusenTugla.m */; };
+		E64EAA2D1A02426200FDF66D /* Cubuk.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EAA2C1A02426200FDF66D /* Cubuk.m */; };
+		E64EAA301A02449100FDF66D /* Top.m in Sources */ = {isa = PBXBuildFile; fileRef = E64EAA2F1A02449100FDF66D /* Top.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E62367061A017C4E00DD2EC7 /* BarKirmaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarKirmaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62367091A017C4E00DD2EC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E623670B1A017C4E00DD2EC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E623670D1A017C4E00DD2EC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E62367111A017C4E00DD2EC7 /* BarKirmaca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarKirmaca-Info.plist"; sourceTree = "<group>"; };
+		E62367131A017C4E00DD2EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E62367151A017C4E00DD2EC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E62367171A017C4E00DD2EC7 /* BarKirmaca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarKirmaca-Prefix.pch"; sourceTree = "<group>"; };
+		E62367181A017C4E00DD2EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E62367191A017C4E00DD2EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E623671B1A017C4E00DD2EC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E623671D1A017C4E00DD2EC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E623671F1A017C4E00DD2EC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E62367221A017C4E00DD2EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/AnaEkran-IPhone.storyboard"; sourceTree = "<group>"; };
+		E62367241A017C4E00DD2EC7 /* TuglaKirmaca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuglaKirmaca.h; sourceTree = "<group>"; };
+		E62367251A017C4E00DD2EC7 /* TuglaKirmaca.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuglaKirmaca.m; sourceTree = "<group>"; };
+		E623672C1A017C6E00DD2EC7 /* AnaEkran-IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "AnaEkran-IPad.storyboard"; sourceTree = "<group>"; };
+		E623672E1A017D5900DD2EC7 /* Ekran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ekran.h; sourceTree = "<group>"; };
+		E623672F1A017D5900DD2EC7 /* Ekran.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ekran.m; sourceTree = "<group>"; };
+		E62367311A017F6C00DD2EC7 /* seviyeler.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seviyeler.txt; sourceTree = "<group>"; };
+		E62367331A017FC600DD2EC7 /* Tugla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tugla.h; sourceTree = "<group>"; };
+		E62367341A017FC600DD2EC7 /* Tugla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tugla.m; sourceTree = "<group>"; };
+		E62367361A01810E00DD2EC7 /* Seviye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seviye.h; sourceTree = "<group>"; };
+		E62367371A01810E00DD2EC7 /* Seviye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seviye.m; sourceTree = "<group>"; };
+		E62367391A0183B200DD2EC7 /* Oyun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Oyun.h; sourceTree = "<group>"; };
+		E623673A1A0183B200DD2EC7 /* Oyun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Oyun.m; sourceTree = "<group>"; };
+		E623673C1A018B7800DD2EC7 /* Parametre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parametre.h; sourceTree = "<group>"; };
+		E623673D1A018B7800DD2EC7 /* Parametre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parametre.m; sourceTree = "<group>"; };
+		E64EAA281A023A3200FDF66D /* DusenTugla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DusenTugla.h; sourceTree = "<group>"; };
+		E64EAA291A023A3200FDF66D /* DusenTugla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DusenTugla.m; sourceTree = "<group>"; };
+		E64EAA2B1A02426200FDF66D /* Cubuk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cubuk.h; sourceTree = "<group>"; };
+		E64EAA2C1A02426200FDF66D /* Cubuk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cubuk.m; sourceTree = "<group>"; };
+		E64EAA2E1A02449100FDF66D /* Top.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Top.h; sourceTree = "<group>"; };
+		E64EAA2F1A02449100FDF66D /* Top.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Top.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E62367031A017C4E00DD2EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E623670A1A017C4E00DD2EC7 /* UIKit.framework in Frameworks */,
+				E623670C1A017C4E00DD2EC7 /* Foundation.framework in Frameworks */,
+				E623670E1A017C4E00DD2EC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E62366FD1A017C4E00DD2EC7 = {
+			isa = PBXGroup;
+			children = (
+				E623670F1A017C4E00DD2EC7 /* BarKirmaca */,
+				E62367081A017C4E00DD2EC7 /* Frameworks */,
+				E62367071A017C4E00DD2EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E62367071A017C4E00DD2EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E62367061A017C4E00DD2EC7 /* BarKirmaca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E62367081A017C4E00DD2EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62367091A017C4E00DD2EC7 /* UIKit.framework */,
+				E623670B1A017C4E00DD2EC7 /* Foundation.framework */,
+				E623670D1A017C4E00DD2EC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E623670F1A017C4E00DD2EC7 /* BarKirmaca */ = {
+			isa = PBXGroup;
+			children = (
+				E62367311A017F6C00DD2EC7 /* seviyeler.txt */,
+				E62367181A017C4E00DD2EC7 /* AppDelegate.h */,
+				E62367191A017C4E00DD2EC7 /* AppDelegate.m */,
+				E62367211A017C4E00DD2EC7 /* AnaEkran-IPhone.storyboard */,
+				E623672C1A017C6E00DD2EC7 /* AnaEkran-IPad.storyboard */,
+				E62367241A017C4E00DD2EC7 /* TuglaKirmaca.h */,
+				E62367251A017C4E00DD2EC7 /* TuglaKirmaca.m */,
+				E62367331A017FC600DD2EC7 /* Tugla.h */,
+				E62367341A017FC600DD2EC7 /* Tugla.m */,
+				E62367361A01810E00DD2EC7 /* Seviye.h */,
+				E62367371A01810E00DD2EC7 /* Seviye.m */,
+				E623672E1A017D5900DD2EC7 /* Ekran.h */,
+				E623672F1A017D5900DD2EC7 /* Ekran.m */,
+				E62367391A0183B200DD2EC7 /* Oyun.h */,
+				E623673A1A0183B200DD2EC7 /* Oyun.m */,
+				E623673C1A018B7800DD2EC7 /* Parametre.h */,
+				E623673D1A018B7800DD2EC7 /* Parametre.m */,
+				E64EAA281A023A3200FDF66D /* DusenTugla.h */,
+				E64EAA291A023A3200FDF66D /* DusenTugla.m */,
+				E64EAA2B1A02426200FDF66D /* Cubuk.h */,
+				E64EAA2C1A02426200FDF66D /* Cubuk.m */,
+				E64EAA2E1A02449100FDF66D /* Top.h */,
+				E64EAA2F1A02449100FDF66D /* Top.m */,
+				E62367101A017C4E00DD2EC7 /* Supporting Files */,
+			);
+			path = BarKirmaca;
+			sourceTree = "<group>";
+		};
+		E62367101A017C4E00DD2EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E62367111A017C4E00DD2EC7 /* BarKirmaca-Info.plist */,
+				E62367121A017C4E00DD2EC7 /* InfoPlist.strings */,
+				E62367151A017C4E00DD2EC7 /* main.m */,
+				E62367171A017C4E00DD2EC7 /* BarKirmaca-Prefix.pch */,
+				E623671B1A017C4E00DD2EC7 /* Default.png */,
+				E623671D1A017C4E00DD2EC7 /* Default@2x.png */,
+				E623671F1A017C4E00DD2EC7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E62367051A017C4E00DD2EC7 /* BarKirmaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62367291A017C4E00DD2EC7 /* Build configuration list for PBXNativeTarget "BarKirmaca" */;
+			buildPhases = (
+				E62367021A017C4E00DD2EC7 /* Sources */,
+				E62367031A017C4E00DD2EC7 /* Frameworks */,
+				E62367041A017C4E00DD2EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarKirmaca;
+			productName = BarKirmaca;
+			productReference = E62367061A017C4E00DD2EC7 /* BarKirmaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E62366FE1A017C4E00DD2EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Olcay Taner YILDIZ";
+			};
+			buildConfigurationList = E62367011A017C4E00DD2EC7 /* Build configuration list for PBXProject "BarKirmaca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E62366FD1A017C4E00DD2EC7;
+			productRefGroup = E62367071A017C4E00DD2EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E62367051A017C4E00DD2EC7 /* BarKirmaca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E62367041A017C4E00DD2EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62367141A017C4E00DD2EC7 /* InfoPlist.strings in Resources */,
+				E623671C1A017C4E00DD2EC7 /* Default.png in Resources */,
+				E623671E1A017C4E00DD2EC7 /* Default@2x.png in Resources */,
+				E62367201A017C4E00DD2EC7 /* Default-568h@2x.png in Resources */,
+				E62367231A017C4E00DD2EC7 /* AnaEkran-IPhone.storyboard in Resources */,
+				E623672D1A017C6E00DD2EC7 /* AnaEkran-IPad.storyboard in Resources */,
+				E62367321A017F6C00DD2EC7 /* seviyeler.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E62367021A017C4E00DD2EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62367161A017C4E00DD2EC7 /* main.m in Sources */,
+				E623671A1A017C4E00DD2EC7 /* AppDelegate.m in Sources */,
+				E62367261A017C4E00DD2EC7 /* TuglaKirmaca.m in Sources */,
+				E62367301A017D5900DD2EC7 /* Ekran.m in Sources */,
+				E62367351A017FC600DD2EC7 /* Tugla.m in Sources */,
+				E62367381A01810E00DD2EC7 /* Seviye.m in Sources */,
+				E623673B1A0183B200DD2EC7 /* Oyun.m in Sources */,
+				E623673E1A018B7800DD2EC7 /* Parametre.m in Sources */,
+				E64EAA2A1A023A3200FDF66D /* DusenTugla.m in Sources */,
+				E64EAA2D1A02426200FDF66D /* Cubuk.m in Sources */,
+				E64EAA301A02449100FDF66D /* Top.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E62367121A017C4E00DD2EC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62367131A017C4E00DD2EC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E62367211A017C4E00DD2EC7 /* AnaEkran-IPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62367221A017C4E00DD2EC7 /* en */,
+			);
+			name = "AnaEkran-IPhone.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E62367271A017C4E00DD2EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E62367281A017C4E00DD2EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E623672A1A017C4E00DD2EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarKirmaca/BarKirmaca-Prefix.pch";
+				INFOPLIST_FILE = "BarKirmaca/BarKirmaca-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E623672B1A017C4E00DD2EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarKirmaca/BarKirmaca-Prefix.pch";
+				INFOPLIST_FILE = "BarKirmaca/BarKirmaca-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E62367011A017C4E00DD2EC7 /* Build configuration list for PBXProject "BarKirmaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62367271A017C4E00DD2EC7 /* Debug */,
+				E62367281A017C4E00DD2EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62367291A017C4E00DD2EC7 /* Build configuration list for PBXNativeTarget "BarKirmaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E623672A1A017C4E00DD2EC7 /* Debug */,
+				E623672B1A017C4E00DD2EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E62366FE1A017C4E00DD2EC7 /* Project object */;
+}

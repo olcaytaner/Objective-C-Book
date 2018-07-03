@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="gmI-Om-zzG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Piramit-->
+        <scene sceneID="Alx-HO-NiG">
+            <objects>
+                <viewController id="gmI-Om-zzG" customClass="Piramit" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EoF-fC-3zS" customClass="Ekran">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hva-dk-CaX" appends="YES" id="dQb-zq-l9G"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="ekran" destination="EoF-fC-3zS" id="u61-dj-PzJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="usp-hI-95Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hva-dk-CaX">
+                    <connections>
+                        <action selector="hucreTikla:" destination="gmI-Om-zzG" id="n5X-de-ec9"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-145" y="-293"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="Ekran" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Ekran.h"/>
+        </class>
+        <class className="Piramit" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Piramit.h"/>
+            <relationships>
+                <relationship kind="action" name="hucreTikla:"/>
+                <relationship kind="outlet" name="ekran" candidateClass="Ekran"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" promptedForUpgradeToXcode5="NO" initialViewController="0cn-9y-iLU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Ehliyet Sinavi-->
+        <scene sceneID="Rag-ea-5lt">
+            <objects>
+                <viewController id="0cn-9y-iLU" customClass="EhliyetSinavi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adm-vq-PxU">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQK-Yc-HYC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CtR-c1-CKy">
+                                <rect key="frame" x="0.0" y="85" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap1">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="Vwk-9Y-yRR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xkp-Tf-EiN">
+                                <rect key="frame" x="0.0" y="136" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap2">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="FLP-mI-wzM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TSb-71-MAr">
+                                <rect key="frame" x="0.0" y="187" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap3">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="Jwy-1L-U5e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-uh-ZdO">
+                                <rect key="frame" x="0.0" y="238" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Cevap4">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CevapTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="jLD-90-yo8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHk-j9-rzZ">
+                                <rect key="frame" x="0.0" y="434" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Konular">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UD6-S8-Koe" kind="modal" identifier="tercihSecimi" id="LKx-EV-bmp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-KH-tdx">
+                                <rect key="frame" x="0.0" y="485" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SinaviBaslatTikla:" destination="0cn-9y-iLU" eventType="touchUpInside" id="egk-TM-0yc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="0TZ-AT-i1r"/>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="top" secondItem="adm-vq-PxU" secondAttribute="top" type="default" id="2BS-lq-60D"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="5uD-0Z-81X"/>
+                            <constraint firstItem="uHk-j9-rzZ" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="9Hd-UM-SQl"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="D7y-To-lXa"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="IXr-Nl-B0C"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="top" secondItem="rQK-Yc-HYC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Jm5-OP-Bh5"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="N6j-t4-VVN"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="top" secondItem="Xkp-Tf-EiN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OK7-lp-6bL"/>
+                            <constraint firstItem="TSb-71-MAr" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="SWN-4w-0Ur"/>
+                            <constraint firstAttribute="bottom" secondItem="bI7-KH-tdx" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="UUy-NT-rOe"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="V4G-E1-1gq"/>
+                            <constraint firstItem="uHk-j9-rzZ" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="bsR-yO-E6Q"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="top" secondItem="CtR-c1-CKy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="c1Q-0U-EKh"/>
+                            <constraint firstItem="ge7-uh-ZdO" firstAttribute="top" secondItem="TSb-71-MAr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="f7J-Yz-vsW"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="g2C-Sl-5hP"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="h1A-nU-c0i"/>
+                            <constraint firstItem="bI7-KH-tdx" firstAttribute="top" secondItem="uHk-j9-rzZ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="h40-yD-FgZ"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="izp-JO-1zM"/>
+                            <constraint firstItem="Xkp-Tf-EiN" firstAttribute="leading" secondItem="adm-vq-PxU" secondAttribute="leading" type="default" id="pYS-2E-HhN"/>
+                            <constraint firstItem="rQK-Yc-HYC" firstAttribute="trailing" secondItem="adm-vq-PxU" secondAttribute="trailing" type="default" id="raH-PL-9Zs"/>
+                            <constraint firstItem="CtR-c1-CKy" firstAttribute="top" secondItem="adm-vq-PxU" secondAttribute="top" constant="85" id="yzJ-oK-3tW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ikD-rJ-iE0"/>
+                    <connections>
+                        <outlet property="Cevap1" destination="CtR-c1-CKy" id="5nE-fo-1Mh"/>
+                        <outlet property="Cevap2" destination="Xkp-Tf-EiN" id="PXZ-Ip-ILJ"/>
+                        <outlet property="Cevap3" destination="TSb-71-MAr" id="sBr-9I-jIq"/>
+                        <outlet property="Cevap4" destination="ge7-uh-ZdO" id="mdH-Yk-IZH"/>
+                        <outlet property="Soru" destination="rQK-Yc-HYC" id="sjb-7Z-W4s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtD-hn-aqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356" y="-813"/>
+        </scene>
+        <!--Konular-->
+        <scene sceneID="u5O-ah-7QI">
+            <objects>
+                <viewController id="UD6-S8-Koe" customClass="Konular" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OaF-hC-Bze">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <switch opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zA-5r-tXQ">
+                                <rect key="frame" x="84" y="17" width="79" height="27"/>
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="KonuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="Nxw-ro-JFO"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Trafik" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iMW-zy-h8U">
+                                <rect key="frame" x="1" y="20" width="70" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="vMs-pB-H5G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EeG-rk-KMT">
+                                <rect key="frame" x="84" y="52" width="79" height="27"/>
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="KonuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="xcf-X1-zz7"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Motor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uae-Kg-mBa">
+                                <rect key="frame" x="1" y="55" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJ3-ZM-DNN">
+                                <rect key="frame" x="84" y="87" width="79" height="27"/>
+                                <accessibility key="accessibilityConfiguration" label=""/>
+                                <connections>
+                                    <action selector="KonuTikla:" destination="UD6-S8-Koe" eventType="valueChanged" id="5O9-Js-egA"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="İlk Yardım" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBw-lE-JwA">
+                                <rect key="frame" x="1" y="90" width="86" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="4ea-xg-Eej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiv-e0-4uw">
+                                <rect key="frame" x="0.0" y="149" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınavı Yeniden Başlat">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZZ8-DZ-dea" kind="unwind" identifier="sinaviYenidenBaslat" unwindAction="unwindToEhliyetSinavi:" id="2fx-xE-KVM"/>
+                                </connections>
+                            </button>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="BvD-LM-hhO">
+                                <rect key="frame" x="170" y="17" width="94" height="27"/>
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="HNy-PM-d2E"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zeH-y5-HbM">
+                                <rect key="frame" x="269" y="20" width="38" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="f2P-F8-BTY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="n4G-fr-H1E">
+                                <rect key="frame" x="170" y="52" width="94" height="27"/>
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="qjE-lc-0tp"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s7M-db-wcy">
+                                <rect key="frame" x="269" y="55" width="38" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-Fj-JPh">
+                                <rect key="frame" x="170" y="87" width="94" height="27"/>
+                                <connections>
+                                    <action selector="KonuDegerDegistir:" destination="UD6-S8-Koe" eventType="valueChanged" id="9ex-GV-HDB"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8p-aC-wtB">
+                                <rect key="frame" x="269" y="90" width="38" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKx-wf-7i8">
+                                <rect key="frame" x="0.0" y="214" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sınava Geri Dön">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZZ8-DZ-dea" kind="unwind" identifier="sinavaGeriDon" unwindAction="unwindToEhliyetSinavi:" id="PzK-92-5dJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DJ3-ZM-DNN" firstAttribute="top" secondItem="EeG-rk-KMT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1Ku-Hh-RJM"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="trailing" secondItem="OaF-hC-Bze" secondAttribute="trailing" type="default" id="2US-iE-9kL"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="trailing" secondItem="uae-Kg-mBa" secondAttribute="trailing" type="default" id="5SP-6m-aYW"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" type="default" id="6T4-cI-Dis"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="leading" secondItem="zeH-y5-HbM" secondAttribute="leading" type="default" id="Cum-XS-TfU"/>
+                            <constraint firstItem="AW8-Fj-JPh" firstAttribute="leading" secondItem="n4G-fr-H1E" secondAttribute="leading" type="default" id="DHD-rv-EP3"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" constant="1" id="Dof-tY-juT"/>
+                            <constraint firstItem="DJ3-ZM-DNN" firstAttribute="leading" secondItem="EeG-rk-KMT" secondAttribute="leading" type="default" id="EcX-2f-DDM"/>
+                            <constraint firstItem="EeG-rk-KMT" firstAttribute="top" secondItem="3zA-5r-tXQ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KM5-BE-7nv"/>
+                            <constraint firstAttribute="trailing" secondItem="BvD-LM-hhO" secondAttribute="trailing" constant="56" id="KTn-2o-ZFU"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="20" symbolic="YES" type="default" id="LrC-PH-tXs"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" type="default" id="NQ9-dF-NDo"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="centerY" secondItem="n4G-fr-H1E" secondAttribute="centerY" type="default" id="OVf-vK-A5L"/>
+                            <constraint firstItem="MBw-lE-JwA" firstAttribute="baseline" secondItem="U8p-aC-wtB" secondAttribute="baseline" type="default" id="QEP-Ov-Kxe"/>
+                            <constraint firstItem="MBw-lE-JwA" firstAttribute="leading" secondItem="uae-Kg-mBa" secondAttribute="leading" type="default" id="QNS-wM-B9l"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="trailing" secondItem="s7M-db-wcy" secondAttribute="trailing" type="default" id="Rt3-oj-Cu7"/>
+                            <constraint firstItem="BvD-LM-hhO" firstAttribute="top" secondItem="3zA-5r-tXQ" secondAttribute="top" type="default" id="WSn-Y2-Dpk"/>
+                            <constraint firstItem="AW8-Fj-JPh" firstAttribute="top" secondItem="n4G-fr-H1E" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WYd-dg-5WG"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="centerY" secondItem="AW8-Fj-JPh" secondAttribute="centerY" type="default" id="Y8r-Z5-hBs"/>
+                            <constraint firstItem="s7M-db-wcy" firstAttribute="trailing" secondItem="zeH-y5-HbM" secondAttribute="trailing" type="default" id="bRn-Nq-MrR"/>
+                            <constraint firstItem="jiv-e0-4uw" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="149" id="bS5-bc-Otn"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="trailing" secondItem="OaF-hC-Bze" secondAttribute="trailing" type="default" id="cnR-EN-44h"/>
+                            <constraint firstItem="RKx-wf-7i8" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="214" id="gij-rO-T09"/>
+                            <constraint firstItem="EeG-rk-KMT" firstAttribute="leading" secondItem="3zA-5r-tXQ" secondAttribute="leading" type="default" id="meY-Ke-cab"/>
+                            <constraint firstAttribute="trailing" secondItem="zeH-y5-HbM" secondAttribute="trailing" constant="13" id="pBE-cX-nnw"/>
+                            <constraint firstItem="n4G-fr-H1E" firstAttribute="top" secondItem="BvD-LM-hhO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="rgt-MF-YSR"/>
+                            <constraint firstItem="zeH-y5-HbM" firstAttribute="top" secondItem="OaF-hC-Bze" secondAttribute="top" constant="20" symbolic="YES" type="default" id="tUt-Ta-QL9"/>
+                            <constraint firstItem="uae-Kg-mBa" firstAttribute="baseline" secondItem="s7M-db-wcy" secondAttribute="baseline" type="default" id="u2p-le-4as"/>
+                            <constraint firstItem="iMW-zy-h8U" firstAttribute="leading" secondItem="uae-Kg-mBa" secondAttribute="leading" type="default" id="uc0-S8-cGH"/>
+                            <constraint firstItem="U8p-aC-wtB" firstAttribute="leading" secondItem="s7M-db-wcy" secondAttribute="leading" type="default" id="w45-4G-co7"/>
+                            <constraint firstItem="n4G-fr-H1E" firstAttribute="leading" secondItem="BvD-LM-hhO" secondAttribute="leading" type="default" id="x3p-Zg-vFz"/>
+                            <constraint firstItem="3zA-5r-tXQ" firstAttribute="leading" secondItem="OaF-hC-Bze" secondAttribute="leading" constant="84" id="x5O-Mk-AGD"/>
+                            <constraint firstItem="zeH-y5-HbM" firstAttribute="centerY" secondItem="BvD-LM-hhO" secondAttribute="centerY" type="default" id="xPB-GH-FEx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="IlkYardim" destination="DJ3-ZM-DNN" id="E7g-in-LAu"/>
+                        <outlet property="IlkYardimGosterge" destination="AW8-Fj-JPh" id="C01-V2-dBT"/>
+                        <outlet property="IlkYardimSayac" destination="U8p-aC-wtB" id="RNY-ye-zA1"/>
+                        <outlet property="Motor" destination="EeG-rk-KMT" id="G7g-c4-xOU"/>
+                        <outlet property="MotorGosterge" destination="n4G-fr-H1E" id="ljo-lz-mU5"/>
+                        <outlet property="MotorSayac" destination="s7M-db-wcy" id="hHV-mR-27x"/>
+                        <outlet property="Trafik" destination="3zA-5r-tXQ" id="NRh-o1-z5F"/>
+                        <outlet property="TrafikGosterge" destination="BvD-LM-hhO" id="Xwd-Ou-L1a"/>
+                        <outlet property="TrafikSayac" destination="zeH-y5-HbM" id="T9P-QH-wmS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8U-zm-k4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ZZ8-DZ-dea" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="-813"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
